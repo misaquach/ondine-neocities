@@ -1,0 +1,62 @@
+body {
+    background: url(https://ondine.neocities.org/books/city/bricks.png);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 25px;
+    font-size: 17px;
+    }
+* {
+    box-sizing: border-box;
+}
+p, li{
+      color:#706060;
+}
+p{
+        text-indent:42px;
+}
+h1, h2{
+      color:#aa3111;
+}
+h1{      text-shadow:1px 1px 5px #200000;}
+h3{
+      color:#902000;
+      text-shadow:1px 1px 2px #300000;
+}
+@font-face{
+  font-family:"norm";
+  src: url(https://ondine.neocities.org/books/city/norm.ttf);
+}
+@font-face{
+  font-family:"ital";
+  src: url(https://ondine.neocities.org/books/city/ital.ttf);
+}
+* {
+  font-family: "norm";
+}
+i{
+  font-family: "ital";
+  font-style: normal;
+}
+::selection {
+    text-shadow: 1px 1px 6px blue;
+    color:#4540D5;
+}
+.quote{
+  color:#908080;
+  background-color:#343429;
+  padding:4%;
+  margin:1%;
+  font-family:italic;
+}
+.mbox{
+width:800px;
+border-color:#404040;
+border-width:14px;
+border-style:double;
+padding:60px;
+background:linear-gradient(#252520,black);
+margin:auto;
+}
+a{
+  color:#902000;
+}

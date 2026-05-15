@@ -1,0 +1,51 @@
+body {
+    background: url(https://ondine.neocities.org/books/city/wp_damask_194.gif);
+    font-size: 17px;
+    }
+p, li{
+      color:#856C58;
+}
+p{
+        text-indent:42px;
+}
+h2{
+  color:#757778;
+}
+::selection {
+    text-shadow: 1px 1px 4px #830000;
+    color:red;
+}
+.quote{
+  color:#4A91C0;
+  background-color:#1F283D;
+  padding:10px;
+  padding-left:4%;
+  padding-right:4%;
+  font-family:italic;
+}
+a{
+  color:#4A91C0;
+}
+@font-face{
+  font-family:"norm";
+  src: url(https://ondine.neocities.org/fonts/times.ttf);
+}
+@font-face{
+  font-family:"ital";
+  src: url(https://ondine.neocities.org/fonts/timesi.ttf);
+}
+* {
+  font-family: "norm";
+}
+i{
+  font-family: "ital";
+  font-style: normal;
+}
+.stuff{width:700px;
+border-color:#373636;
+border-width:14px;
+border-style:double;
+padding:60px;
+background-color:#1E1E1D;
+margin:auto;
+padding-top:50px;}
