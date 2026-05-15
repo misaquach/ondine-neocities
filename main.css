@@ -1,0 +1,29 @@
+@font-face{
+  font-family:"garamond";
+  src: url(https://ondine.neocities.org/fonts/garamond.ttf);
+}
+@font-face{
+  font-family:"garamondital";
+  src: url(https://ondine.neocities.org/fonts/garamond-italic.ttf);
+}
+@font-face{
+  font-family:"Dico";
+  src: url(https://ondine.neocities.org/fonts/Dico.ttf);
+}
+body {background-color:#131318;margin-left:15%;margin-right:15%;margin-top:4%;padding:20px;}
+h1 {color:#c9a24f;font-family:"Dico";}
+h2, h3, details {color:#3e969e;}
+p, li, details, summary {color:rgb(99, 63, 63); font-size: 18px;}
+p{text-indent:42px;}
+a, a:visited {color:rgb(144, 61, 93);cursor: url(images/pen0.png), auto;text-shadow:0px 0px 0px}
+a:active{cursor: url(images/pen1.png), auto;}
+hr{border-color:#df9f60}
+*, html, body {cursor: url(images/pen.png),auto;font-family:"garamond"}
+i{font-family:"garamondital" !important;}
+h1{font-family:"Dico" !important}
+::selection {
+    color: rgb(211, 159, 61);
+    text-shadow:0px 0px 0px;
+    background-color:rgba(104, 67, 11, 0.406)
+}
+figure, figcaption{color:#575757}

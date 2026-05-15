@@ -1,0 +1,52 @@
+@font-face{
+  font-family:"norm";
+  src: url(https://ondine.neocities.org/fonts/garamond.ttf);
+}
+@font-face{
+  font-family:"ital";
+  src: url(https://ondine.neocities.org/fonts/garamondital.ttf);
+}
+a, a:visited{color:rgb(20, 77, 93)} !important
+body {
+    padding-top: 25px;
+    margin:auto;
+    font-size: 13px;
+    scrollbar-color: #134F7F #033F7E;
+    }
+* {
+    box-sizing: border-box;
+}
+i{
+  font-family:"ital";
+}
+p, i, li{
+  color:rgb(12, 27, 24);
+  font-size:15px;}
+p{
+      text-indent:42px;
+}
+h2, h3{
+      color:black;
+}
+::selection {
+    color: rgb(119, 11, 36);
+    text-shadow:0px 0px 0px;
+    background-color:rgba(33, 5, 11,.5)
+}
+.quote{
+  color:rgb(27, 9, 11);
+  background:rgba(106, 85, 80, 0.559)
+  padding:4%;
+  margin:1%;
+}
+*::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: rgb(101, 75, 79);;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #9b7373;}

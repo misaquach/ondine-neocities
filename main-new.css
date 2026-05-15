@@ -1,0 +1,74 @@
+/*Scrollbar stuff*/
+body::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #171d28;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #304b62;
+}
+/*Main*/
+@font-face{
+  font-family:"garamond";
+  src: url(https://ondine.neocities.org/fonts/garamond.ttf);
+}
+@font-face{
+  font-family:"garamondital";
+  src: url(https://ondine.neocities.org/fonts/garamond-italic.ttf);
+}
+@font-face{
+  font-family:"Dico";
+  src: url(https://ondine.neocities.org/fonts/Dico.ttf);
+}
+body {
+    cursor: url(https://ondine.neocities.org/images/pen.png),auto;
+    background-image:url(https://ondine.neocities.org/images/wallpaper/stars.gif);
+    background-blend-mode:multiply;
+    background-color: rgba(30, 99, 112, 0.8);
+    margin-left:15%;margin-right:15%;margin-top:0px;
+    font-family:"garamond";}
+
+a, a:visited {color:rgb(61, 133, 144);cursor: url(images/pen0.png), auto;text-shadow:0px 0px 0px;}
+    a:active{cursor: url(https://ondine.neocities.org/images/pen1.png), auto;}
+    figure, figcaption{color:#575757}
+::selection {
+  background-color: #171d28;
+    text-shadow:0px 0px 0px;
+  color: #446f94;}
+/*Sectional*/
+.Kuchen{
+    background:#141110;
+    margin-top:-10px;
+    border:10px solid rgb(24, 23, 22);
+    font-family:"Dico"; !important
+}
+.zagolovok{
+    background-image:url(https://ondine.neocities.org/images/city-repeating/kirpic2.gif);
+    height:170px;background-blend-mode: multiply;background-color: rgba(75, 78, 78, 0.817);  display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{color:rgb(255, 214, 138);
+        text-shadow:0px 0px 10px rgb(218, 146, 12);
+        padding:20px;
+        font-family:"Dico" !important}
+}
+.othercrap{
+    padding:20px;}
+    p, li, details, summary{color:rgb(114, 69, 88);font-family:"garamond"}
+    p{text-indent:25px;}
+    figcaption{color:#5D5E5F}
+@media screen and (min-width:320px) and (max-width:640px) {
+    body{margin-left:0px;margin-right:0px;}}
+i{font-family:"garamondital"}
+    h1{color:rgb(221, 195, 101);
+        text-shadow:0px 0px 10px rgb(147, 102, 3);
+        padding:20px;
+        font-family:"Dico" !important}
+hr{border-color:#df9f60}
+    h2{color:rgb(154, 101, 61);}
+    h3{color:#4A67B2;}
